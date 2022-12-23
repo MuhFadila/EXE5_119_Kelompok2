@@ -7,5 +7,13 @@ namespace EXE5_119_Kelompok2
         public string name;
         public Node;
     }
-    
+    class queue
+    {
+        Node Muhammad, Fadila;
+        public queue()
+        {
+            Muhammad = null;
+            Fadila = null;
+        }
+    }
 }
