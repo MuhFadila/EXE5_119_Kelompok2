@@ -80,10 +80,14 @@ namespace EXE5_119_Kelompok2
                             case '3':
                                 q.display();
                                 break;
-
+                            case '4':
+                                return;
+                            default:
+                                Console.WriteLine("Pilihan Salah");
+                                break;
                         }
                     }
-                    catch (Exception)
+                    catch (Exception e)
                     {
 
                         throw;
