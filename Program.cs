@@ -75,6 +75,8 @@ namespace EXE5_119_Kelompok2
                                 q.insert();
                                 break;
                             case '2':
+                                q.delete();
+                                break;
                         }
                     }
                     catch (Exception)
