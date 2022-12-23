@@ -12,4 +12,9 @@ namespace EXE5_119_Kelompok2
             this.next = null;
         }
     }
+    class Queue
+    {
+        public QNode front, rear;
+        public Queue() { this.front = this.rear = null; }
+    }
 }
