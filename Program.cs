@@ -6,6 +6,9 @@ namespace EXE5_119_Kelompok2
     {
         public int key;
         public QNode next;
-        public QNode(int key) { }
+        public QNode(int key)
+        {
+
+        }
     }
 }
