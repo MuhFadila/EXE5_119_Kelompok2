@@ -40,5 +40,13 @@ namespace EXE5_119_Kelompok2
             if (Muhammad == null)
                 Fadila = null;
         }
+        public void display()
+        {
+            if(Muhammad == null)
+            {
+                Console.WriteLine("Queue tidak ada !");
+                return;
+            }
+        }
     }
 }
