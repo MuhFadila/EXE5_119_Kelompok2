@@ -27,7 +27,10 @@ namespace EXE5_119_Kelompok2
             {
                 Muhammad = newnode;
                 Fadila = newnode;
+                return;
             }
+            Muhammad.next = newnode;
+            Fadila.next = newnode;
         }
         public void delete()
         {
@@ -66,7 +69,7 @@ namespace EXE5_119_Kelompok2
                         Console.WriteLine("2. Menghapus data : ");
                         Console.WriteLine("3. Display data : ");
                         Console.WriteLine("4. keluar");
-                        Console.Write("\nMasukan pilihannya");
+                        Console.Write("\nMasukan pilihannya : ");
                         ch = Convert.ToChar(Console.ReadLine());
                         Console.WriteLine();
                         switch (ch)
