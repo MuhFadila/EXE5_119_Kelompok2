@@ -29,8 +29,8 @@ namespace EXE5_119_Kelompok2
                 Fadila = newnode;
                 return;
             }
-            Muhammad.next = newnode;
             Fadila.next = newnode;
+            Fadila = newnode;
         }
         public void delete()
         {
@@ -51,7 +51,7 @@ namespace EXE5_119_Kelompok2
                 return;
             }
             Node display;
-            for (display = Fadila; display != null; display = display.next)
+            for (display = Muhammad; display != null; display = display.next)
                 Console.WriteLine(display.name);
         }
         class program
