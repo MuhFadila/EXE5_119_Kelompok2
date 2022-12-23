@@ -69,6 +69,13 @@ namespace EXE5_119_Kelompok2
                         Console.Write("\nMasukan pilihannya");
                         ch = Convert.ToChar(Console.ReadLine());
                         Console.WriteLine();
+                        switch (ch)
+                        {
+                            case '1':
+                                q.insert();
+                                break;
+                            case '2':
+                        }
                     }
                     catch (Exception)
                     {
