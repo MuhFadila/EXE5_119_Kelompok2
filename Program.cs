@@ -36,6 +36,9 @@ namespace EXE5_119_Kelompok2
                 Console.WriteLine("Queue kosong !");
                 return;
             }
+            Muhammad = Muhammad.next;
+            if (Muhammad == null)
+                Fadila = null;
         }
     }
 }
