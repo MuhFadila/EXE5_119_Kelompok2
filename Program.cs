@@ -5,7 +5,7 @@ namespace EXE5_119_Kelompok2
     class Node
     {
         public string name;
-        public Node;
+        public Node next;
     }
     class queue
     {
@@ -14,6 +14,20 @@ namespace EXE5_119_Kelompok2
         {
             Muhammad = null;
             Fadila = null;
+        }
+        public void insert()
+        {
+            string nm;
+            Node newnode = new Node();
+            Console.WriteLine("Masukan Element : ");
+            nm = Console.ReadLine();
+            newnode.name = nm;
+            newnode.next = null;
+            if (Muhammad == null)
+            {
+                Muhammad = newnode;
+                Fadila = newnode;
+            }
         }
     }
 }
