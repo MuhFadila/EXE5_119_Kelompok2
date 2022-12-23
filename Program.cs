@@ -77,6 +77,10 @@ namespace EXE5_119_Kelompok2
                             case '2':
                                 q.delete();
                                 break;
+                            case '3':
+                                q.display();
+                                break;
+
                         }
                     }
                     catch (Exception)
