@@ -29,5 +29,13 @@ namespace EXE5_119_Kelompok2
                 Fadila = newnode;
             }
         }
+        public void delete()
+        {
+            if (Muhammad == null)
+            {
+                Console.WriteLine("Queue kosong !");
+                return;
+            }
+        }
     }
 }
