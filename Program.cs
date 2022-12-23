@@ -47,6 +47,9 @@ namespace EXE5_119_Kelompok2
                 Console.WriteLine("Queue tidak ada !");
                 return;
             }
+            Node display;
+            for (display = Fadila; display != null; display = display.next)
+                Console.WriteLine(display.name);
         }
     }
 }
