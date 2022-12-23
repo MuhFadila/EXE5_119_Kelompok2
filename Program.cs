@@ -89,11 +89,7 @@ namespace EXE5_119_Kelompok2
                     }
                     catch (Exception e)
                     {
-
-                        throw;
-                    }
-                    {
-
+                        Console.WriteLine("Check the values");
                     }
                 }
             }
