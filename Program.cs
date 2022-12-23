@@ -56,6 +56,29 @@ namespace EXE5_119_Kelompok2
             static void Main(string[] args)
             {
                 queue q = new queue();
+                char ch;
+                while (true)
+                {
+                    try
+                    {
+                        Console.WriteLine("Menu");
+                        Console.WriteLine("1. Masukan data : ");
+                        Console.WriteLine("2. Menghapus data : ");
+                        Console.WriteLine("3. Display data : ");
+                        Console.WriteLine("4. keluar");
+                        Console.Write("\nMasukan pilihannya");
+                        ch = Convert.ToChar(Console.ReadLine());
+                        Console.WriteLine();
+                    }
+                    catch (Exception)
+                    {
+
+                        throw;
+                    }
+                    {
+
+                    }
+                }
             }
         }
     }
