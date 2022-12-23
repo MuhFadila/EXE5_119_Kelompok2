@@ -51,5 +51,12 @@ namespace EXE5_119_Kelompok2
             for (display = Fadila; display != null; display = display.next)
                 Console.WriteLine(display.name);
         }
+        class program
+        {
+            static void Main(string[] args)
+            {
+                queue q = new queue();
+            }
+        }
     }
 }
