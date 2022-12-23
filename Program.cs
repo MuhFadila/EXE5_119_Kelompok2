@@ -16,5 +16,10 @@ namespace EXE5_119_Kelompok2
     {
         public QNode front, rear;
         public Queue() { this.front = this.rear = null; }
+        public void enqueue(int key)
+        {
+            QNode temp = new QNode(key);
+
+        }
     }
 }
